@@ -1,3 +1,16 @@
+.hero {
+  text-align: center;
+}
+
+.hero__title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--primary-bg-color);
+}
+
 .section__heading {
   font-weight: bold;
   font-size: 36px;
