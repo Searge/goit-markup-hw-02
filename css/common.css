@@ -19,7 +19,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.8;
   letter-spacing: 0.03em;
   display: flex;
   flex-direction: column;
@@ -38,9 +38,10 @@ body {
 }
 
 .button {
+  font-family: inherit;
   font-weight: bold;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.8;
   letter-spacing: 0.06em;
   color: var(--primary-bg-color);
   background-color: var(--accent);
@@ -48,9 +49,6 @@ body {
   border-radius: 4px;
   border: none;
   height: 50px;
-  display: flex;
-  align-items: center;
-  text-align: center;
 }
 
 .button:hover {
@@ -64,7 +62,7 @@ body {
   font-family: Raleway, sans-serif;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.2;
 }
 
 .logo__link {
@@ -82,7 +80,7 @@ body {
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
@@ -94,7 +92,7 @@ body {
 .contacts__link {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--primary-text-color);
