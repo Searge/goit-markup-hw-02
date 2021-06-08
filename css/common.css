@@ -44,8 +44,6 @@ body {
   letter-spacing: 0.06em;
   color: var(--primary-bg-color);
   background-color: var(--accent);
-
-  display: inline-block;
   text-decoration: none;
   border-radius: 4px;
   border: none;
@@ -106,5 +104,3 @@ body {
 .contacts__link:focus {
   color: var(--accent);
 }
-
-
